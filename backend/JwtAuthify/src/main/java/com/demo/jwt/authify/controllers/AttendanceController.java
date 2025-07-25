@@ -47,7 +47,7 @@ public class AttendanceController {
             @RequestParam Integer studentClass,
             @RequestParam String section,
             @RequestParam LocalDate attendanceDate,
-            @RequestParam(required = false) String name // Optional
+            @RequestParam(required = false) String name
     ) {
         Page<StudentAttendanceEntity> attendancePage =
                 attendanceService.getAllStudentAttendances(page, size, studentClass, section, attendanceDate, name);
