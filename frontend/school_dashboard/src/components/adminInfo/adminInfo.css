@@ -1,0 +1,59 @@
+.admin-info-container{
+    position: relative;
+}
+
+.admin-profile-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.admin-profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.admin-profile-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.profile-details h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Roboto_Font;
+    margin-top: 10px;
+}
+
+.details-table {
+    width: 100%;
+}
+
+.details-table td {
+    padding: 12px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto_Font;
+}
+
+.details-table td:first-child {
+    font-weight: 600;
+    width: 250px;
+}
+
+.admin-info-container .actions {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.admin-info-container .actions img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

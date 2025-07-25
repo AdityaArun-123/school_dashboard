@@ -1,0 +1,12 @@
+.home-dashboard-container {
+    padding: 35px 35px 35px 50px;
+    margin: 65px 0 0 230px;
+    background-color: var(--container-bg-color);
+}
+
+.due-car-and-top-performer-section {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

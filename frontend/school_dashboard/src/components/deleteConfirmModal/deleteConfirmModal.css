@@ -1,0 +1,75 @@
+.delete-confirm-modal-bg-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.277);
+}
+
+.delete-condirm-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1010;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    width: 400px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.delete-condirm-modal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    background: #FFFFFF;
+    border-bottom: 1px solid #b2b2b2;
+    padding-bottom: 10px;
+}
+
+.delete-condirm-modal .close {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.delete-condirm-modal .modal-body {
+    margin-top: 12px;
+    font-size: 13.5px;
+    color: #333;
+}
+
+.delete-condirm-modal .modal-footer {
+    width: 100%;
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.delete-condirm-modal .btn {
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.delete-condirm-modal .btn-delete {
+    background: var(--delete-button-bg-color);
+    color: white;
+}
+
+.delete-condirm-modal .btn-cancel {
+    background: var(--cancel-button-bg-color);
+    color: #333;
+}

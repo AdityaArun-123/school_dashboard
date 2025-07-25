@@ -1,0 +1,66 @@
+.mark-attendance-container .search-bar {
+    justify-content: flex-end;
+}
+
+.mark-attendance-container .search-bar input {
+    flex: initial;
+}
+
+.mark-attendance-container .btn-upload {
+    background-color: var(--save-button-bg-color);
+    margin-top: 20px;
+}
+
+.mark-attendance-container .btn-save {
+    width: 120px;
+}
+
+.mark-attendance-container .get-teacher-btn {
+    width: 100%;
+}
+
+.special-attendance-btn {
+    width: 120px;
+    height: 40px;
+    align-self: flex-end;
+}
+
+.mark-attendance-container .attendance-container table span {
+    color: red;
+    margin-left: 2px;
+}
+
+.get-attendance-container .search-bar{
+    margin-top: 60px;
+    width: 380px;
+    margin-left: auto;
+}
+
+.get-attendance-container .search-bar button.search-btn{
+    background-color: var(--save-button-bg-color);
+}
+
+.get-attendance-container .attendance-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-attendance-container .attendance-status span {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.get-attendance-container .attendance-status span.absent {
+    background-color: var(--delete-button-bg-color);
+}
+
+.get-attendance-container .attendance-status span.present {
+    background-color: var(--success-button-bg-color);
+}

@@ -1,0 +1,18 @@
+.log-in-container .log-in-form-group:last-child {
+    position: relative;
+}
+
+.log-in-container .log-in-form-group .forget-password {
+    position: absolute;
+    right: 10px;
+    bottom: -22px;
+}
+
+.log-in-container .log-in-form-group .forget-password a{
+    color: #006666;
+    text-decoration: none;
+}
+
+.log-in-container .btn {
+    margin-top: 15px;
+}

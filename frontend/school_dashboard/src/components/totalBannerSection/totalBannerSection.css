@@ -1,0 +1,56 @@
+.dashboard {
+    display: flex;
+    gap: 3%;
+}
+
+.card {
+    position: relative;
+    width: calc(100% - 3%);
+    height: 120px;
+    padding: 20px 0 10px 40px;
+    border-radius: 12px;
+    background: var(--container-bg-color);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: Roboto_Font;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+.card p {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+}
+
+.card:nth-child(1) {
+    background-color: #fdeedc;
+}
+
+.card:nth-child(2) {
+    background-color: #eaf8e6;
+}
+
+.card:nth-child(3) {
+    background-color: #e7ebfc;
+}
+
+.card:nth-child(4) {
+    background-color: #e6f6f2;
+}
+
+.card:nth-child(5) {
+    background-color: #fbe8e8;
+}

@@ -1,0 +1,133 @@
+.navbar {
+    width: fit-content;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 110;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-family: Roboto_Font;
+    cursor: pointer;
+}
+
+.profile-drop-down-bg-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    width: 45px;
+    height: 40px;
+    border-radius: 2rem;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.profile-name {
+    font-weight: 600;
+    font-size: 16px;
+}   
+
+.profile-chevron-down-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+    margin-top: 15px;
+    align-self: flex-start;
+}
+
+.dropdown {
+    position: absolute;
+    top: calc(102% + 14px);
+    right: 20px;
+    z-index: 9999;
+    background: #FFDAB9;
+    width: 200px;
+    border-radius: 8px;
+    font-family: Roboto_Font;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: translateY(-10px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.dropdowm-top-arrow {
+    position: absolute;
+    top: 102%;
+    right: 40px;
+    width: 15px;
+    height: 15px;
+    clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+    background-color: #FFDAB9;
+    transform: translateY(-10px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.dropdown.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdowm-top-arrow.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown ul li {
+    padding: 12px 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dropdown ul li:hover {
+    background: #FF8C66;
+}
+
+.dropdown ul li img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
