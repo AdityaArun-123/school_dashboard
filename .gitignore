@@ -1,0 +1,45 @@
+##############################################
+# Backend (Spring Boot - JwtAuthify)
+##############################################
+
+/backend/JwtAuthify/target/
+/backend/JwtAuthify/uploads/
+/backend/JwtAuthify/.classpath
+/backend/JwtAuthify/.project
+/backend/JwtAuthify/.settings/
+/backend/JwtAuthify/.factorypath
+/backend/JwtAuthify/*.log
+/backend/JwtAuthify/*.cache
+/backend/JwtAuthify/.DS_Store
+/backend/JwtAuthify/Thumbs.db
+/backend/JwtAuthify/ehthumbs.db
+/backend/JwtAuthify/Desktop.ini
+/backend/JwtAuthify/src/main/resources/application.properties
+
+##############################################
+# Frontend (React - school_dashboard)
+##############################################
+
+/frontend/school_dashboard/node_modules/
+/frontend/school_dashboard/build/
+/frontend/school_dashboard/coverage/
+/frontend/school_dashboard/.env
+/frontend/school_dashboard/.env.local
+/frontend/school_dashboard/.env.*.local
+/frontend/school_dashboard/npm-debug.log*
+/frontend/school_dashboard/yarn-debug.log*
+/frontend/school_dashboard/yarn-error.log*
+
+##############################################
+# IDEs & OS files (general)
+##############################################
+
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.log
+*.cache
+.DS_Store
+Thumbs.db
