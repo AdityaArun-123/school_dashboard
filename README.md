@@ -4,7 +4,7 @@ A full-stack School Management Dashboard built with **React.js** (Frontend) and 
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Backend (Spring Boot)
 - JWT Authentication with role-based access control
@@ -22,7 +22,7 @@ A full-stack School Management Dashboard built with **React.js** (Frontend) and 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - Java 17
@@ -58,7 +58,7 @@ Go to the project directory
 Create the database in MySQL
 
 ```bash
-  CREATE DATABASE your_DB_name;
+  CREATE DATABASE your_DB_name
 ```
 
 Configure application.properties
