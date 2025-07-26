@@ -58,7 +58,7 @@ Go to the project directory
 Create the database in MySQL
 
 ```bash
-  CREATE DATABASE your_DB_name
+  CREATE DATABASE your_DB_name;
 ```
 
 Configure application.properties
