@@ -216,4 +216,3 @@ All backend APIs are prefixed with: `http://localhost:8080/authify-app`
 ## Author
 
 [@Aditya Arun](https://github.com/AdityaArun-123)
-
